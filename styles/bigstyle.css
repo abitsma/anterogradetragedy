@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: #333333;
+}
+header{
+    background-color: #555555;
+}
+nav{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #8A95A5;
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #1F1F1F;
+    color: #EAC435;
+}
+#hero{
+    text-align: center;
+}
+#hero-img{
+    width: 70%
+}
+#hero-msg{
+    text-align: left;
+    color: #EAC435;
+    font-size: 2.5em;
+}
+p{
+    color:#8A95A5;
+}
+.halfnhalf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.lineone{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 1.5em;
+}
+.linetwo{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 1.5em;
+}
+.linethree{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 1.5em;
+}
+#meboolin{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
