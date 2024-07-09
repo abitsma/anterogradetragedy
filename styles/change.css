@@ -1,6 +1,10 @@
 body{
     margin: 0;
     background-color: #333333;
+    font-family: Helvetica, "Courier New", sans-serif;
+}
+body h1,h2{
+    font-family: Tahoma, Helvetica, "Courier New";
 }
 header{
     background-color: #555555;
