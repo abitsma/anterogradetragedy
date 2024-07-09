@@ -1,22 +1,31 @@
 body{
     margin: 0;
     background-color: #333333;
+    font-family: Helvetica, "Courier New", sans-serif;
+}
+body h1,h2{
+    font-family: Tahoma, Helvetica, "Courier New";
 }
 header{
     background-color: #555555;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.logo{
+    width: 300px;
 }
 nav{
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.5em;
     justify-content: space-around;
 }
 nav a{
     text-align: center;
     color: #8A95A5;
-    padding:1em;
+    padding:10px;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
+    margin-top: 40px;
 }
 nav a:hover{
     background-color: #1F1F1F;
@@ -26,7 +35,7 @@ nav a:hover{
     text-align: center;
 }
 #hero-img{
-    width: 70%
+    width: 100%
 }
 #hero-msg{
     text-align: left;
@@ -39,6 +48,7 @@ p{
 .halfnhalf{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
 }
 .lineone{
     grid-column: 1/2;
@@ -58,4 +68,22 @@ p{
 #meboolin{
     grid-column: 2/3;
     grid-row: 1/4;
+}
+footer{
+    background-color:#555555;
+    color:#8A95A5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 10px;
+}
+footer a{
+    color: #8A95A5;
+    text-decoration: none;
+    padding: 10px;
+}
+footer a:hover{
+    background-color:#1F1F1F;
+    color:#EAC435;
 }

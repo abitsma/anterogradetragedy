@@ -11,6 +11,11 @@ header{
     display: grid;
     grid-template-columns: 300px auto;
 }
+.fixed{
+    width: 100%;
+    position: fixed;
+    background-color: #555555;
+}
 .logo{
     width: 300px;
 }
@@ -25,7 +30,6 @@ nav a{
     padding:10px;
     min-width: 120px;
     text-decoration: none;
-    margin-top: 40px;
 }
 nav a:hover{
     background-color: #1F1F1F;
