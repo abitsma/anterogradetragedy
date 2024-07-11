@@ -6,19 +6,18 @@ body{
 body h1,h2{
     font-family: Tahoma, Helvetica, "Courier New";
 }
-.fix{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 header{
-    background-color: #555555;
+    width: 100%
+}
+.fix{
     display: grid;
     grid-template-columns: 300px auto;
+    background-color: #555555;
+    position: fixed;
+    width: 100%
 }
 .logo{
     width: 300px;
-    position: fixed;
 }
 nav{
     display: flex;

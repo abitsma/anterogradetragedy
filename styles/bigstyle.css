@@ -7,9 +7,16 @@ body h1,h2{
     font-family: Tahoma, Helvetica, "Courier New";
 }
 header{
-    background-color: #555555;
+    width: 100%
+}
+.fix{
     display: grid;
     grid-template-columns: 300px auto;
+    background-color: #555555;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 .logo{
     width: 300px;
@@ -45,6 +52,12 @@ nav a:hover{
 }
 p{
     color:#8A95A5;
+}
+.lowz{
+    z-index: 1;
+}
+.padtitle{
+    padding-top: 5%;
 }
 .halfnhalf{
     display: grid;
