@@ -109,6 +109,11 @@ p{
     grid-column: 2/3;
     grid-row: 1/4;
 }
+#hopefullyfixing{
+    padding-top: 15%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
 footer{
     background-color:#555555;
     color:#8A95A5;
