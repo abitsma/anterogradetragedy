@@ -8,9 +8,11 @@ body h1,h2{
 }
 h1{
     color:#EAC435;
+    color: #CFCFCF;
 }
 h2{
     color: #B70D01;
+    color: #CFCFCF;
 }
 header{
     width: 100%
@@ -35,6 +37,7 @@ nav{
 nav a{
     text-align: center;
     color: #8A95A5;
+    color: #CFCFCF;
     padding:10px;
     min-width: 120px;
     text-decoration: none;
@@ -58,6 +61,7 @@ nav a:hover{
 }
 p{
     color:#8A95A5;
+    color: #CFCFCF;
 }
 .lowz{
     z-index: 1;
@@ -125,6 +129,7 @@ footer{
 }
 footer a{
     color: #8A95A5;
+    color: #CFCFCF;
     text-decoration: none;
     padding: 10px;
 }
