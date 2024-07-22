@@ -7,12 +7,12 @@ body h1,h2{
     font-family: Tahoma, Helvetica, "Courier New";
 }
 h1{
-    color:#EAC435;
-    /* color: #CFCFCF; */
+    /* color:#EAC435; */
+    color: #CFCFCF;
 }
 h2{
-    color: #B70D01;
-    /* color: #CFCFCF; */
+    /* color: #B70D01; */
+    color: #CFCFCF;
 }
 header{
     width: 100%
@@ -36,8 +36,8 @@ nav{
 }
 nav a{
     text-align: center;
-    color: #8A95A5;
-    /* color: #CFCFCF; */
+    /* color: #8A95A5; */
+    color: #CFCFCF;
     padding:10px;
     min-width: 120px;
     text-decoration: none;
@@ -60,8 +60,8 @@ nav a:hover{
     padding-left: 10px;
 }
 p{
-    color:#8A95A5;
-    /* color: #CFCFCF; */
+    /* color:#8A95A5; */
+    color: #CFCFCF;
 }
 .lowz{
     z-index: 1;
@@ -128,10 +128,10 @@ footer{
     padding: 10px;
 }
 footer a{
-    color: #8A95A5;
-    /* color: #CFCFCF; */
+    /* color: #8A95A5; */
+    color: #CFCFCF;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px; 
 }
 footer a:hover{
     background-color:#1F1F1F;
